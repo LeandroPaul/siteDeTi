@@ -1,0 +1,46 @@
+#navbar{
+    height: 200px;
+}
+
+#navbar-container{
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+#navbar-items{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar-items li:nth-child(2){
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+
+}
+
+#product img{
+    width: 400px; 
+}
+
+#where iframe{
+    width: 400px;
+}
+
+.gallery-image{
+    width: 400px;
+}
+
+#product{
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    background: #eee;  
+}
+
+#items .item{
+    display: flex;
+    padding: 10px;
+    margin: 10px 10px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#showcase a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #040404;
+    color: #eee;
+    border-radius: 5px;
+}
+
+#showcase a:hover{
+    cursor: pointer;
+    background: #2e2d2d;
+}
+
+#navbar a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+#navbar a:hover{
+  color: #ccc;
+}
+
+.headline{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+/* Navbar*/
+
+#navbar{
+    height: 80px;
+    width: 100%;
+    background: #111;
+    color: #eee;
+}
+
+#navbar-container{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-items{
+    display: flex;
+    list-style:none;
+    text-transform: uppercase;
+}
+
+#navbar-items li{
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 10px;    
+}
+
+
+#about{
+  padding: 50px;
+  background: #eee;
+  text-align: justify;
+
+}
+
+/**/
+.clients-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+   
+
+}
+#clients{
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+    background: #eee;
+}
+
+.client{
+    display:inline-block;
+    width: 90%;
+}
+
+#feature{
+    
+    width: 100%;
+    background: #eee;
+    color: #040404;
+    padding: 50px;
+}
+
+.feature p{
+    text-align: justify;
+}
+
+#product{
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    background: #eee;
+    
+}
+
+#items .item{
+    display: flex;
+    padding: 20px;
+    margin: 15px 20px;
+    font-size: 1.2rem;
+}
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+#testimonials{
+    width: 100%;
+    background: #eee;
+    color: #040404;
+    padding: 50px;
+}
+
+#testimonials-container{
+    width: 80%;
+    color: #eee;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial .testimonial-image{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+#time{
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    background: #eee;
+}
+
+/* Estilo para a seção "Contato" */
+#contact {
+    background-color: #eee;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contact .headline {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  /* Estilo para o formulário de contato */
+  #contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contact-form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form input[type="tel"],
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #040404;
+    color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 500ms ease;
+  }
+  
+  #contact-form button:hover {
+    background: #2e2d2d;
+  }
+  
+
+/* Adicione este código CSS para estilizar o rodapé */
+
+#footer {
+    background-color: #111;
+    color: #eee;
+    padding: 50px 0;
+  }
+  
+  #footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  #footer ul li a {
+    color: #eee;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  #footer ul li a:hover {
+    color: #040404;
+  }
+  
+  /* Estilo para o link de política de privacidade e termos de uso */
+  #footer .container .col-md-6 ul li:first-child a,
+  #footer .container .col-md-6 ul li:nth-child(2) a {
+    font-weight: bold;
+  }
+  
+  /* Estilo para a seção "Onde Estamos" */
+#where {
+    background-color: #eee;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #where .headline {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  /* Estilo para o mapa incorporado */
+  #map {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+
