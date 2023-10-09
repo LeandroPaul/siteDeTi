@@ -77,6 +77,29 @@ body{
     padding: 10px;    
 }
 
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: url('/img/tallest-3093955_1280.jpg') no-repeat center center/cover;
+}
+
+#showcase-container{
+    text-align: center;
+    
+}
+
+#showcase-container h2{
+    font-size: 2.2rem;
+    
+}
+
+#showcase-container p{
+    font-size: 1.1rem;
+    padding: 7px 0px;
+}
 
 #about{
   padding: 50px;
